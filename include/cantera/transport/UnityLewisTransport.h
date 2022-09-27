@@ -94,7 +94,7 @@ public:
         };
 
         for (size_t k = 0; k < m_nsp; k++) {
-            d[k] = Dm;
+            d[k] = Dm/Le_i[k];
         }
     }
 };
